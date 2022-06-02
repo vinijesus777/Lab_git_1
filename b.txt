@@ -1,1 +1,24 @@
-Testando atualização do git_clone!!!
+#Testando atualização do git_clone!!!
+#Atualizando arquivo com novas informações projeto
+
+# ./script.sh
+Deseja executar este script? S/N:
+
+SIM
+
+# COMANDO 1
+  echo "Atualizando pacotes"  OK
+  yum update
+
+# COMANDO 2
+  echo "Reparando banco de dados EXIM" [10%] (mostrar progresso dentro dos colchetes e ao final exibir OK na lista) > OK
+  mysqlcheck --repair eximstats
+
+# COMANDO 3
+  echo "Scan" [5%] (Nesse caso houve um erro então ele exibide ERROR em vez de OK) > ERROR, em seguida para para o próximo comando ignorando este
+  clamscan -r
+
+NÃO
+
+echo "Goodbye!"
+exit 
