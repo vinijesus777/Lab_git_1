@@ -6,3 +6,6 @@
     a
     b
     Testando Repos....
+    X <push>:
+    Y <para>:
+    Z <teste>:
